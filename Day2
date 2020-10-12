@@ -1,0 +1,19 @@
+package com.company;
+
+public class Employe {
+   public int age =21;
+   public String Name = "Saurab";
+   public String city ="chennai" ;
+
+   void display(){
+      System.out.println("The name is " + Name);
+      System.out.println("the age is " + age);
+      System.out.println("the city is " + city);
+   }
+   public Employe(){}
+
+   public static void main (String[] args) {
+      Employe e=new Employe();
+      e.display();
+   }
+}
